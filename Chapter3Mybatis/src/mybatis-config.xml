@@ -5,7 +5,7 @@
 <configuration>
     <properties resource="mybatis.properties"/>
     <typeAliases>
-        <typeAlias alias="role" type="com.chapter3.pojo.Role"/>
+        <typeAlias alias="role" type="com.chapter3.entity.Role"/>
     </typeAliases>
     <environments default="development">
         <environment id="development">
@@ -20,6 +20,6 @@
     </environments>
 
     <mappers>
-       <mapper resource="com/chapter3/Mapper/Test.xml"/>
+       <mapper resource="com/chapter3/mapper/RoleMapper.xml"/>
     </mappers>
 </configuration>
