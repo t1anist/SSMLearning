@@ -1,0 +1,20 @@
+<component name="libraryTable">
+  <library name="ant-1.10.3">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/Chapter3Mybatis/lib/ant-1.10.3.jar!/" />
+      <root url="jar://$PROJECT_DIR$/Chapter3Mybatis/lib/ant-launcher-1.10.3.jar!/" />
+      <root url="jar://$PROJECT_DIR$/Chapter3Mybatis/lib/asm-7.0.jar!/" />
+      <root url="jar://$PROJECT_DIR$/Chapter3Mybatis/lib/cglib-3.2.10.jar!/" />
+      <root url="jar://$PROJECT_DIR$/Chapter3Mybatis/lib/commons-logging-1.2.jar!/" />
+      <root url="jar://$PROJECT_DIR$/Chapter3Mybatis/lib/javassist-3.24.1-GA.jar!/" />
+      <root url="jar://$PROJECT_DIR$/Chapter3Mybatis/lib/log4j-1.2.17.jar!/" />
+      <root url="jar://$PROJECT_DIR$/Chapter3Mybatis/lib/log4j-api-2.11.2.jar!/" />
+      <root url="jar://$PROJECT_DIR$/Chapter3Mybatis/lib/log4j-core-2.11.2.jar!/" />
+      <root url="jar://$PROJECT_DIR$/Chapter3Mybatis/lib/ognl-3.2.10.jar!/" />
+      <root url="jar://$PROJECT_DIR$/Chapter3Mybatis/lib/slf4j-api-1.7.26.jar!/" />
+      <root url="jar://$PROJECT_DIR$/Chapter3Mybatis/lib/slf4j-log4j12-1.7.26.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>
