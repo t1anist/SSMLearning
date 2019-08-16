@@ -4,6 +4,7 @@
     <modules>
       <module fileurl="file://$PROJECT_DIR$/Chapter2Reflect/Chapter2Reflect.iml" filepath="$PROJECT_DIR$/Chapter2Reflect/Chapter2Reflect.iml" />
       <module fileurl="file://$PROJECT_DIR$/Chapter3Mybatis/Chapter3Mybatis.iml" filepath="$PROJECT_DIR$/Chapter3Mybatis/Chapter3Mybatis.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Chapter4Mybatis/Chapter4Mybatis.iml" filepath="$PROJECT_DIR$/Chapter4Mybatis/Chapter4Mybatis.iml" />
       <module fileurl="file://$PROJECT_DIR$/SSMLearning.iml" filepath="$PROJECT_DIR$/SSMLearning.iml" />
     </modules>
   </component>
