@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+
+<mapper namespace="com.chapter5.mapper.EmployeeMapper">
+    <resultMap id="EmployeeMap" type="employee">
+        <id property="id" column="id"/>
+        <result property="realName" column="real_name"/>
+        <result property="sex" column="sex" typeHandler="com.chapter5.typehandler.SexEnumTypeHandler"/>
+        <result property="birthday" column="birthday"/>
+        <result property="mobile" column="mobile"/>
+        <result property="email" column="email"/>
+        <result property="position" column="POSITION"/>
+        <result property="note" column="note"/>
+        <association property="workCard" column="id" select="com.chapter5.mapper.WorkCardMapper.getWorkCardByEmpId"/>
+        <collection property="employeeTaskList" column="id" select="com.chapter5.mapper.EmployeeTaskMapper.getEmployeeTaskByEmpId"/>
+        <discriminator javaType="long" column="sex">
+            <case value="1" resultMap="maleHealthFormMapper"/>
+            <case value="2" resultMap="femaleHealthFormMapper"/>
+        </discriminator>
+    </resultMap>
+
+    <resultMap id="femaleHealthFormMapper" extends="EmployeeMap" type="femaleEmployee">
+        <association property="femaleHealthForm" column="id" select="com.chapter5.mapper.FemaleHealthFormMapper.getFemaleHealthForm"/>
+    </resultMap>
+
+    <resultMap id="maleHealthFormMapper"  extends="EmployeeMap" type="maleEmployee">
+        <association property="maleHealthForm" column="id" select="com.chapter5.mapper.MaleHealthFormMapper.getMaleHealthForm"/>
+    </resultMap>
+
+    <select id="getEmployee" parameterType="long" resultMap="EmployeeMap">
+            SELECT
+                id,
+                real_name,
+                sex,
+                birthday,
+                mobile,
+                email,
+                POSITION,
+                note
+            FROM
+                t_employee
+            WHERE
+                id = #{id}
+    </select>
+</mapper>

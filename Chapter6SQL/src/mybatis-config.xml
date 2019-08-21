@@ -20,6 +20,6 @@
     </environments>
 
     <mappers>
-        <package name="com.chapter5.mapper"/>
+        <package name="com.chapter6.mapper"/>
     </mappers>
 </configuration>

@@ -15,7 +15,6 @@ public class Employee {
     private String note;
     private WorkCard workCard;
     private List<EmployeeTask> employeeTaskList = null;
-
     public Long getId() {
         return id;
     }
