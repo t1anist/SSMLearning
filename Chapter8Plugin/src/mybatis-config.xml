@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE configuration
+        PUBLIC "-//mybatis.org//DTD Config 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-config.dtd">
+<configuration>
+    <properties resource="jdbc.properties"/>
+    <typeAliases>
+        <package name="com.chapter8.entity"/>
+    </typeAliases>
+    <plugins>
+        <!--<plugin interceptor="com.chapter8.plugin.MyPlugin">-->
+            <!--<property name="dbType" value="mysql"/>-->
+        <!--</plugin>-->
+        <plugin interceptor="com.chapter8.plugin.PagePlugin">
+            <!--默认页码-->
+            <property name="default.page" value="1"/>
+            <!--默认每页条数-->
+            <property name="default.pageSize" value="20"/>
+            <!--是否启动分页插件功能-->
+            <property name="default.useFlag" value="true"/>
+            <!--是否检查页码有效性，如果非有效，抛出异常-->
+            <property name="default.checkFlag" value="false"/>
+            <!--针对那些含有order by的SQL，是否去掉最后一个order by以后的SQL语句以提高性能-->
+            <property name="default.cleanOrderBy" value="false"/>
+        </plugin>
+    </plugins>
+    <environments default="development">
+        <environment id="development">
+            <transactionManager type="JDBC"/>
+            <dataSource type="POOLED">
+                <property name="driver" value="${database.driver}"/>
+                <property name="url" value="${database.url}"/>
+                <property name="username" value="${database.username}"/>
+                <property name="password" value="${database.password}"/>
+            </dataSource>
+        </environment>
+    </environments>
+
+    <mappers>
+        <package name="com.chapter8.mapper"/>
+    </mappers>
+</configuration>

@@ -2,9 +2,14 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
+      <module fileurl="file://$PROJECT_DIR$/Chapter10SetUpSpringBean/Chapter10SetUpSpringBean.iml" filepath="$PROJECT_DIR$/Chapter10SetUpSpringBean/Chapter10SetUpSpringBean.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Chapter11SpringAOP/Chapter11SpringAOP.iml" filepath="$PROJECT_DIR$/Chapter11SpringAOP/Chapter11SpringAOP.iml" />
       <module fileurl="file://$PROJECT_DIR$/Chapter2Reflect/Chapter2Reflect.iml" filepath="$PROJECT_DIR$/Chapter2Reflect/Chapter2Reflect.iml" />
       <module fileurl="file://$PROJECT_DIR$/Chapter3Mybatis/Chapter3Mybatis.iml" filepath="$PROJECT_DIR$/Chapter3Mybatis/Chapter3Mybatis.iml" />
       <module fileurl="file://$PROJECT_DIR$/Chapter4Mybatis/Chapter4Mybatis.iml" filepath="$PROJECT_DIR$/Chapter4Mybatis/Chapter4Mybatis.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Chapter5Mapper/Chapter5Mapper.iml" filepath="$PROJECT_DIR$/Chapter5Mapper/Chapter5Mapper.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Chapter8Plugin/Chapter8Plugin.iml" filepath="$PROJECT_DIR$/Chapter8Plugin/Chapter8Plugin.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Chapter9SpringIoC/Chapter9SpringIoC.iml" filepath="$PROJECT_DIR$/Chapter9SpringIoC/Chapter9SpringIoC.iml" />
       <module fileurl="file://$PROJECT_DIR$/SSMLearning.iml" filepath="$PROJECT_DIR$/SSMLearning.iml" />
     </modules>
   </component>

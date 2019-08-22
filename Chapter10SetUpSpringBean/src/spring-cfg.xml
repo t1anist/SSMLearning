@@ -1,0 +1,14 @@
+<?xml version='1.0' encoding='UTF-8' ?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xsi:schemaLocation="http://www.springframework.org/schema/beans
+               http://www.springframework.org/schema/beans/spring-beans-4.0.xsd">
+    <bean id="role" class="com.chapter10.pojo.Role">
+        <constructor-arg index="0" value="总经理"/>
+        <constructor-arg index="1" value="公司管理者"/>
+    </bean>
+    <bean id="role2" class="com.chapter10.pojo.Role">
+        <property name="roleName" value="高级工程师"/>
+        <property name="note" value="重要人员"/>
+    </bean>
+</beans>
