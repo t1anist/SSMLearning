@@ -1,11 +1,9 @@
 <component name="libraryTable">
-  <library name="Spring-4.3.18.RELEASE" type="spring">
-    <properties version="4.3.18.RELEASE" />
+  <library name="Spring-4.3.18.RELEASE without aop" type="spring">
     <CLASSES>
       <root url="jar://$PROJECT_DIR$/Chapter9SpringIoC/lib/spring-beans-4.3.18.RELEASE.jar!/" />
       <root url="jar://$PROJECT_DIR$/Chapter9SpringIoC/lib/spring-context-4.3.18.RELEASE.jar!/" />
       <root url="jar://$PROJECT_DIR$/Chapter9SpringIoC/lib/spring-instrument-4.3.18.RELEASE.jar!/" />
-      <root url="jar://$PROJECT_DIR$/Chapter9SpringIoC/lib/spring-aspects-4.3.18.RELEASE.jar!/" />
       <root url="jar://$PROJECT_DIR$/Chapter9SpringIoC/lib/spring-expression-4.3.18.RELEASE.jar!/" />
       <root url="jar://$PROJECT_DIR$/Chapter9SpringIoC/lib/spring-context-support-4.3.18.RELEASE.jar!/" />
       <root url="jar://$PROJECT_DIR$/Chapter9SpringIoC/lib/spring-jdbc-4.3.18.RELEASE.jar!/" />
@@ -19,7 +17,7 @@
       <root url="jar://$PROJECT_DIR$/Chapter9SpringIoC/lib/spring-orm-4.3.18.RELEASE.jar!/" />
       <root url="jar://$PROJECT_DIR$/Chapter9SpringIoC/lib/spring-test-4.3.18.RELEASE.jar!/" />
       <root url="jar://$PROJECT_DIR$/Chapter9SpringIoC/lib/spring-core-4.3.18.RELEASE.jar!/" />
-      <root url="jar://$PROJECT_DIR$/Chapter9SpringIoC/lib/spring-aop-4.3.18.RELEASE.jar!/" />
+      <root url="jar://$PROJECT_DIR$/Chapter9SpringIoC/lib/spring-aspects-4.3.18.RELEASE.jar!/" />
     </CLASSES>
     <JAVADOC />
     <SOURCES />

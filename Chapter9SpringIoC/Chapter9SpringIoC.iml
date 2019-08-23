@@ -3,7 +3,9 @@
   <component name="FacetManager">
     <facet type="Spring" name="Spring">
       <configuration>
-        <fileset id="fileset" name="Spring Application Context" removed="false" />
+        <fileset id="fileset" name="Spring Application Context 9" removed="false">
+          <file>file://$MODULE_DIR$/src/spring-cfg.xml</file>
+        </fileset>
       </configuration>
     </facet>
   </component>

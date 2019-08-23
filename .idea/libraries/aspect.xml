@@ -1,0 +1,10 @@
+<component name="libraryTable">
+  <library name="aspect">
+    <CLASSES>
+      <root url="file://$PROJECT_DIR$/Chapter11SpringAOP/lib" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+    <jarDirectory url="file://$PROJECT_DIR$/Chapter11SpringAOP/lib" recursive="false" />
+  </library>
+</component>

@@ -14,6 +14,9 @@ public class Role {
         this.note = note;
     }
 
+    public Role(){
+    }
+
     public Long getId() {
         return id;
     }
