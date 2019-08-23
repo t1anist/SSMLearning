@@ -4,6 +4,9 @@ import org.aspectj.lang.annotation.*;
 @Aspect
 public class RoleAspect {
 
+    @Pointcut("execution(* com.chapter11.aop.service.impl.RoleServiceImpl.printRole(..))")
+    public void print(){}
+
     @Before("execution(* com.chapter11.aop.service.impl.RoleServiceImpl.printRole(..))")
     public void before(){
         System.out.println("before...");
@@ -17,7 +20,7 @@ public class RoleAspect {
     public void afterReturning(){
         System.out.println("afterReturning...");
     }
-    @AfterThrowing("execution(* com.chapter11.aop.service.impl.RoleServiceImpl.printRole(..))")
+    @AfterThrowing("print()")
     public void afterThrowing(){
         System.out.println("afterThrowing...");
     }
